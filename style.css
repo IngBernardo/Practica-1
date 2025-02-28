@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 20px 0;
+    margin-top: 1;
+}
+
+
+.titulos {
+    text-align: center;
+    margin-top: 0;
+}
+.titulos h4 {
+    position: relative;
+    margin-top: -40px;
+    margin-left: 450px;
+}
+
+
+
+nav {
+    background: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 0;
+    height: 10px;
+    margin-bottom: 0%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 80%; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.ubicacion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/imagenes/wp3703412.webp) center/cover no-repeat, rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+    padding-top: 9%;
+    padding-bottom: 12%;
+    margin-top: 0;
+}
+
+.ubicacion p {
+    color: white;
+}
+
+.ubicacion h3 {
+    color: white;
+}
+
+.ubicacion p img {
+    max-width: 3%;
+}
+
+.ubicacion button {
+    border: none;
+    outline: none;
+    padding: 10px 39px;
+    background: #0099cc;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.services {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service-item {
+    width: 250px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.service-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #0099cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact button:hover {
+    background: #007bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 14px;
+}
